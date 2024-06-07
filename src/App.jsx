@@ -12,6 +12,7 @@ function App() {
 		<LightSwitch
 			switchLights={handleSwitchLights}
 			text={isOn ? "Turn off" : "Turn on"}
+			className={isOn ? "on" : "off"}
 		/>
 	);
 }
